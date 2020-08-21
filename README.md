@@ -27,7 +27,6 @@ $ yarn add goar-gulp-npm
 ```javascript
 const goarGulpNpm = require('goar-gulp-npm')
 const result = goarGulpNpm('w')
-// result => 'w@zce.me'
 ```
 
 ## API
@@ -47,7 +46,6 @@ const result = goarGulpNpm('w')
 
 - Type: `string`
 - Details: host string
-- Default: `'zce.me'`
 
 ## Contributing
 

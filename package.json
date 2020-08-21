@@ -21,8 +21,10 @@
     "url": "https://github.com/GjMagic/Goar-gulp-npm"
   },
   "main": "lib/index.js",
+  "bin": "bin/goar-gulp-npm.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "scripts": {
     "test": "standard --fix && jest --coverage"
@@ -37,7 +39,23 @@
       "zce"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6"
+  },
   "devDependencies": {
     "jest": "^26.4.0",
     "standard": "^14.3.4"
