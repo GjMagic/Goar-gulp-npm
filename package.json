@@ -1,0 +1,48 @@
+{
+  "name": "goar-gulp-npm",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "goar-gulp-npm",
+    "zce"
+  ],
+  "homepage": "https://github.com/gongjian/goar-gulp-npm#readme",
+  "bugs": {
+    "url": "https://github.com/gongjian/goar-gulp-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongjian/goar-gulp-npm.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "gongjian",
+    "email": "862635037@qq.com",
+    "url": "https://github.com/GjMagic/Goar-gulp-npm"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "standard --fix && jest --coverage"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
